@@ -1,0 +1,24 @@
+<!DOCTYPE>
+ <html>
+   <body>
+   <center>
+   <br>
+<br>
+   <br>
+   <form action="https://api.particle.io/v1/devices/e00fce68f761e2f5318d35ab/led?access_token=0be0632e5dc1b1789c87b9ccf63fc8e19735a17f" method="POST">
+     Tell your device what to do!<br>
+    <br>
+     <p>Please select the colour light:</p>
+  <input type="radio" id="orange" name="colour" value="orange">
+  <label for="male">Orange</label><br>
+  <input type="radio" id="yellow" name="colour" value="yellow">
+  <label for="female">Yellow</label><br>
+  <input type="radio" id="green" name="colour" value="green">
+  <label for="other">Green</label>
+<br>
+
+     <input type="submit" value="Do it!">
+    </form>
+    </center>
+    </body>
+    </html>
